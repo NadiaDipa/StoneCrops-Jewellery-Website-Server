@@ -146,7 +146,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("hello form oculus");
+  res.send("StoneCrops Jewelry");
 });
 
 app.listen(port, () => {
